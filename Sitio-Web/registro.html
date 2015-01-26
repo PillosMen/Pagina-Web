@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!-- 
+    @autor: Pillos
+    @Fecha: 1 Enero 2015
+ -->   
+<html>
+<head>
+    <title>Enactus CuTonala</title>
+    <link rel="icon" type="image/png" href="img/logito.png"/>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pillos Systems;">
+    <meta name="keywords" content="pillos, hola">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+   
+</head>
+<body>
+
+   <header>
+        <div id="subheader">
+            <div id="logotipo"><p><a href="index.html"><img src="img/logo.png"></a></p></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+   </header>
+
+   <section id="wrap">
+        <section id="main">
+        	 <section id="slideshow2">
+                <div class="slides_container">
+                    <div><a href="#"><img src="img/fdsfl.jpg"></a></div>
+                <!--
+                    <div><a href="#"><img src="img/laguna.jpg"></a></div>
+                    <div><a href="#"><img src="img/pano.jpg"></a></div>
+                -->
+                </div>
+            </section>
+            <section id="registro">
+                <article>
+                    
+                    <p>
+                        <ul>
+                           <form  class="contact_form" method="POST"  action="datos.php" id="contact_form" runat="server">  
+						        <div>  
+						            <ul>  
+						                <li>  
+						                    <h2>Registro</h2>  
+						                    <span class="required_notification">* Datos requeridos</span>  
+						                </li>  
+						                <li>  
+						                    <label id="nombre" name="nombre">Nombre:</label>  
+						                    <input type="text" placeholder="Juan" required />  
+						                </li>  
+						                <li>  
+						                    <label id="ape_paterno" name="ape_paterno">Apellido paterno:</label>  
+						                    <input type="text" placeholder="Sanchez" required />  
+						                </li>  
+						                <li>  
+						                    <label id="ape_materno" name="ape_materno">Apellido materno:</label>  
+						                    <input type="text" placeholder="Perez" required />  
+						                </li>  
+						                <li>  
+						                    <label>Edad:</label>  
+						                    <select name="fecha" id="fecha" >
+												  <option value="18">18</option>
+												  <option value="19">19</option>
+												  <option value="20">20</option>
+												  <option value="21">21</option>
+												  <option value="22">22</option>
+												  <option value="23">23</option>
+												  <option value="24">24</option>
+												  <option value="25">25</option>
+												  <option value="26">26</option>
+												  <option value="27">27</option>
+												  <option value="28">28</option>
+												  <option value="29">29</option>
+												  <option value="30">30</option>
+												  <option value="31">31</option>
+												  <option value="32">32</option>
+												  <option value="33">33</option>
+												  <option value="34">34</option>
+												  <option value="35">35</option>
+												  <option value="36">36</option>
+												  <option value="37">37</option>
+												  <option value="38">38</option>
+												  <option value="39">39</option>
+												  <option value="40">40</option>
+												  <option value="41">41</option>
+												  <option value="42">42</option>
+												  <option value="43">43</option>
+												  <option value="44">44</option>
+												  <option value="45">45</option>
+												  <option value="46">46</option>
+												  <option value="47">47</option>
+												  <option value="48">48</option>
+												  <option value="49">49</option>
+												  <option value="50">50</option>
+												  <option value="51">51</option>
+												  <option value="52">52</option>
+												  <option value="53">53</option>
+												  <option value="54">54</option>
+												  <option value="55">55</option>
+												  <option value="56">56</option>
+												  <option value="57">57</option>
+												  <option value="58">58</option>
+												  <option value="59">59</option>
+												  <option value="60">60</option>
+												  <option value="61">61</option>
+												  <option value="62">62</option>
+												  <option value="63">63</option>
+												  <option value="64">64</option>
+												  <option value="65">65</option>
+												  </select> 
+						                </li>  
+						                <li>
+                                                <label id="dia" name="dia">28 de Febrero:</label>  
+		                                        <input type="radio" name="sexo" id="sexo1" value="1">
+                                        </li>
+                                             <li>
+                                                <label id="dia" name="dia">1 de Marzo:</label>  
+		                                        <input type="radio" name="sexo" id="sexo1" value="1">
+                                        </li>
+						                <li>  
+						                    <label id="no_licencia" name="no_licencia">No De licencia de manejo:</label>  
+						                    <input type="text" placeholder="Perez" required />  
+						                </li>  
+						                <li>  
+						                    <label id="fecha_licencia" name="fecha_licencia">Fecha de vencimiento de licencia:</label>  
+						                    <input type="text" placeholder="Perez" required />  
+						                </li>  
+						                <li>  
+						                    <label id="carrera">Carrera:</label>  
+						                    <select name="carrera" id="carrera" >
+						                    	  <option value="0">Seleccione una Carrera</option>
+												  <option value="1">Abogado</option>
+												  <option value="2" >Licenciatura en Administracion de Negocios</option>
+												  <option value="3">Licenciatura en Contaduria</option>
+												  <option value="4">Licenciatura en Diseño de Artesania</option>
+												  <option value="5">Licenciatura en Estudios Liberales</option>
+												  <option value="6">Licenciatura en Gerontologia</option>
+												  <option value="7">Licenciatura en Historia del Arte</option>
+												  <option value="8">Licenciatura en Ingenieria en Ciencias Computacionales</option>
+												  <option value="9">Licenciatura en Ingenieria en Energia</option>
+												  <option value="10">Licenciatura en Ingenieria en Nanotecnologia</option>
+												  <option value="11">Licenciatura en Medico, Cirujano y Partero</option>
+												  <option value="12">Licenciatura en Nutricion</option>
+												  <option value="13">Licenciatura en Salud Publica</option>
+												  </select> 
+						                </li>  
+						                <li>  
+						                    <label id="message">Comentarios:</label>  
+						                    <textarea name="mensaje" cols="40" rows="6" required></textarea>  
+						                </li>  
+						                <li>  
+						                    <button class="submit" type="submit">Registrarse</button>  
+						                </li>  
+						            </ul>  
+						        </div>  
+                            </form>  
+
+                        </ul>
+                    </p>
+                </article>
+            </section>
+            
+        </section>
+        <footer>
+            <section id="acerca">
+                <article>
+                    <hgroup><h3>Acerca de...</h3></hgroup>
+                    <p>Los estudiantes universitarios que se integran a Enactus conforman equipos de trabajo interdisciplinarios con compañeros de diferentes carreras, facultades y semestres, con el objetivo de identificar problemas y/o necesidades en las comunidades o sectores del país.
+                    </p>
+                </article>
+            </section>
+            <section id="social">
+                <div class="github"><a href="http://github.com"></a></div>
+                <div class="twitter"><a href="https://twitter.com/enactusCUTonala"></a></div>
+                <div class="youtube"><a href="http://www.youtube.com"></a></div>
+                <div class="facebook"><a href="https://www.facebook.com/groups/490974317635835/?fref=ts"></a></div>
+            </section>
+        </footer>
+        <center>
+        <div id="copyright"><p>Enactus CuTonala © 2015 Copyright</p></div>
+        </center>
+   </section>
+</body>
+</html>
